@@ -21,7 +21,7 @@ class CashRegister
      end
 
      quantity.times do
-       @prices << price
+       @prices << price * quantity
      end
   end
 
@@ -39,7 +39,7 @@ class CashRegister
    end
 
    def void_last_transaction
-  #   binding.pry
+     #binding.pry
      if @total == 0
        return @total
      else
