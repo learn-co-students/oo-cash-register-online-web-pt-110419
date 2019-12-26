@@ -1,8 +1,9 @@
 class CashRegister 
-  #attr_accessor
+  #attr_accessor :cashregister
   
-  def initialize(cashregister)
-    @cashregister = cashregister
+  def initialize(discount = 0)  
+   @total = 0 
+   @discount = discount 
   end   
   
   def new 
@@ -11,4 +12,6 @@ class CashRegister
     
   
 end   
+
+
 
