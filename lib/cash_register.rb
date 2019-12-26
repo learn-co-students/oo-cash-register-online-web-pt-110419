@@ -10,9 +10,8 @@ class CashRegister
   
   end   
   
-  def total 
-  
-  end
+ #def total 
+ #end 
   
   
 end   
