@@ -46,13 +46,14 @@ else
  def items
   #returns an array containing all items that have been added
   
+   add_item
  end 
  
-def void_last_transaction
-      self.total = self.total - self.last_transaction
+#def void_last_transaction
+     # self.total = self.total - self.last_transaction 
 
 
-end 
+#end 
 
  
 end   
